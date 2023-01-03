@@ -1,0 +1,62 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: query
+  examples: |
+    - explain [diffraction](topic)
+    - What is [dispersion](topic)?
+    - Define [Special Relativity](topic)
+    - Explain what is [Respiration](topic)
+    - Explain what is [Refraction](topic)
+    - Define [String Theory](topic)
+    - Explain  [Nuclear Fission](topic)
+    - What is  [Coronavirus](topic)?
+    - What is [Diffraction](topic)?
+    - What is [Software](topic)
+    - Explain what is [Central Limit Theorem](topic)
+    - What is [Huygen's Principle](topic)
+    - Explain what is [Photoelectric Effect](topic)
+    - What is the [Radius of an atom](topic)
+    - What is an [acid](topic)
+    - What is  [bluetooth](topic)
+    - Explain what is [Reverberation](topic)
+    - What is [artificial intelligence](topic)
+    - Explain [Radioactivity](topic)
+    - Define [String Theory](topic) 
+    
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
